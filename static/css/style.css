@@ -30,7 +30,7 @@ span {
 }
 
 .label-value{
-    width: 200px;
+   /* width: 200px;*/
     vertical-align: top;
 }
 
@@ -136,7 +136,7 @@ p {
 progress {
     background-color: #f6f6f6;
     display: inline;
-    /*width: 195px;*/
+    width: 195px;
     height: 1em;
 
 }
@@ -206,7 +206,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
 
     width: 1050px;
-    height: 1750px;
+    /*height: 1750px;*/
     background-color: white;
 
 }
