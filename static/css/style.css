@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
     list-style: none;
     padding-left: 0px;
     font-size: 16px;
-    line-height: 2;
+    line-height: 3;
 }
 
 .stack-list {
@@ -191,7 +191,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url(../image/cover_me.jpg);
+    background-image:url(https://github.com/Catheryan/Catheryan.github.io/blob/master/static/image/cover_me.jpg?raw=true);
     background-size: 120%;
     background-position:center;
     border-radius:50%;
