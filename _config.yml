@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Catheryan-Blog
 subtitle: ''
-description: ''
+description: 'Catheryan-Blog'
 keywords:
-author: John Doe
+author: CatherYan
 language: en
 timezone: ''
 
@@ -17,8 +17,8 @@ url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -103,5 +103,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com:Catheryan/Catheryan.github.io.git  #你的仓库地址
+  repository: ssh://git@github.com/Catheryan/Catheryan.github.io.git #你的仓库地址
   branch: master
