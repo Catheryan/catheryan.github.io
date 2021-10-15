@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://catheryan.github.io
+root: 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,13 +41,17 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
+
 highlight:
   enable: true
-  line_number: true
   auto_detect: false
+  line_number: true
   tab_replace: ''
   wrap: true
   hljs: false
@@ -97,7 +102,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +110,26 @@ deploy:
   type: git
   repository: ssh://git@github.com/Catheryan/Catheryan.github.io.git #你的仓库地址
   branch: master
+
+# Search Page
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Easily enable fast Ajax navigation on your website.
+# Dependencies: https://github.com/theme-next/theme-next-pjax
+pjax: true
+vendors:
+  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
+
+## no working
+CloudCalendar:
+  enable: true
+  language: zh-CN
+  single: true
+  root: /calendar/
+  calendarCdn: //cdn.jsdelivr.net/gh/222e/theme-next-calendar/calendar.min.js
+  langCdn: //cdn.jsdelivr.net/gh/222e/theme-next-calendar/languages.min.js
+  #disableSidebar: false
