@@ -1,0 +1,18 @@
+---
+title: application-feeling
+categories:
+  - 分类2
+tags:
+  - 项目感悟
+mp3: 'http://domain.com/awesome.mp3'
+cover: 'http://domain.com/awesome.jpg'
+date: 2021-11-05 17:30:37
+---
+### 项目全面考虑的要点
+1. 数据流向
+  - 考虑流向以及如何接收
+2. UI适配效果
+  - 历史的兼容效果
+3. 未来的扩展性
+  - 最佳方案优先（时间充裕的情况下）
+  - 事先实现一个demo工程，进行前置实验
