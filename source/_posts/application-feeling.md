@@ -1,7 +1,7 @@
 ---
 title: application-feeling
 categories:
-  - 分类2
+  - 项目感悟
 tags:
   - 项目感悟
 mp3: 'http://domain.com/awesome.mp3'
