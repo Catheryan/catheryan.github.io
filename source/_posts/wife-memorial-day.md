@@ -7,6 +7,9 @@ tags:
 mp3: 'http://domain.com/awesome.mp3'
 cover: 'http://domain.com/awesome.jpg'
 date: 2021-11-09 23:03:06
+password: 19950908
+abstract: Welcome to my blog, enter password to read.
+message: Welcome to my blog, enter password to read.
 ---
 这是一个真实的故事
 有一天，女孩子无意看到一个帖子。
