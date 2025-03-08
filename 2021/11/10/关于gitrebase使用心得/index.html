@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow">
+    <!-- 渲染优化 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" >
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title></title>
+    
+    
+
+    <!-- import meta -->
+    
+    <!-- import link -->
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+    
+      
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5/dist/jquery.fancybox.min.css">
+
+    
+    <!-- style.css -->
+    
+      
+<link rel="stylesheet" href="/css/page.css">
+
+    
+  <meta name="generator" content="Hexo 5.4.0"></head>
+  <body class="docs">
+    <div id="mobile-bar">
+      <a class="menu-button fas fa-bars"></a>
+      <h2 class="nav-title"></h2>
+      
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6/dist/vue.min.js"></script>
+
+    <script>
+      Vue.config.productionTip = false
+      window.PAGE_TYPE = "resume"
+    </script>
+
+    <div id="main" class="fix-sidebar">
+      <div class="sidebar">
+  <div class="sidebar-inner">
+    <header class='header'>
+      <h2></h2>
+      
+      <div class='meta'>
+        
+      </div>
+    <hr><br>
+    </header>
+    <div class="list">
+      <ul class="menu-root">
+        
+          <li>
+            <a href="/categories/" class="sidebar-link">categories</a>
+          </li>
+        
+          <li>
+            <a href="/search/" class="sidebar-link">search</a>
+          </li>
+        
+          <li>
+            <a href="/tags/" class="sidebar-link">tags</a>
+          </li>
+        
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+<div class="content with-sidebar">
+  <div class='resume-header'>
+    
+    <h1 class='resume-title'></h1>
+    <p class='description'></p>
+    
+  </div>
+  <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由于公司以master分支为基线，因而每次从master切出，如果想要合入master时，就得rebase master分支。<br>但是每次合入rebase都会有很多冲突</p>
+<h2 id="具体原因"><a href="#具体原因" class="headerlink" title="具体原因"></a>具体原因</h2><p><img src="/2021/11/10/%E5%85%B3%E4%BA%8Egitrebase%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/git-rebase%E7%A4%BA%E6%84%8F%E5%9B%BE.png" alt="git-rebase示意图"><br>rebase最新的时候，commit 3，4，8节点会有冲突，如果旧的节点很多，你会崩溃的。</p>
+<h2 id="解决方式"><a href="#解决方式" class="headerlink" title="解决方式"></a>解决方式</h2><p>主要分三种阶段</p>
+<ol>
+<li>开发提交时</li>
+</ol>
+<ul>
+<li>git rebase -i HEAD~2 合并重复的commit</li>
+</ul>
+<ol start="2">
+<li>合并阶段</li>
+</ol>
+<ul>
+<li>用master合并dev分之</li>
+</ul>
+<ol start="3">
+<li>解决冲突阶段</li>
+</ol>
+<ul>
+<li>使用master分支内容，之后找到变更文件，覆盖现有的文件</li>
+</ul>
+
+  
+</div>
+
+    </div>
+    
+      
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js"></script>
+
+    
+
+    
+      <footer id="footer">
+        <p><p><a href="/">Copyright © 2017-2020 XXX</a></p>
+</p>
+      </footer>
+    
+
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
+
+    
+      
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js"></script>
+
+    
+    
+      
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js"></script>
+
+    
+
+    
+      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5/dist/jquery.fancybox.min.js"></script>
+      <script>
+        let LAZY_LOAD_IMAGE = "";
+        $("body").find("fancybox").find("img").each(function () {
+            var element = document.createElement("a");
+            $(element).attr("data-fancybox", "gallery");
+            $(element).attr("href", $(this).attr("src"));
+             if (LAZY_LOAD_IMAGE) {
+               $(element).attr("href", $(this).attr("data-original"));
+             }
+            $(this).wrap(element);
+        });
+      </script>
+    
+
+  </body>
+</html>
