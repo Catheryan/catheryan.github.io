@@ -39,28 +39,6 @@
       </tags>
   </entry>
   <entry>
-    <title>工作心得-2021-1014</title>
-    <url>/2021/10/14/dailywork-20211014/</url>
-    <content><![CDATA[<h3 id="方案开始建议"><a href="#方案开始建议" class="headerlink" title="方案开始建议"></a>方案开始建议</h3><p><img src="/2021/10/14/dailywork-20211014/1.jpg"></p>
-<h3 id="过程注意点"><a href="#过程注意点" class="headerlink" title="过程注意点"></a>过程注意点</h3><ol>
-<li><p>方案点列举需要，详尽点，包含时间点以及风险点。</p>
-</li>
-<li><p>过程遇到难点，需要详尽讨论，包含方案调整带来的时间增加，需要和目标对齐好。</p>
-<h3 id="总结教训（SDK方面）"><a href="#总结教训（SDK方面）" class="headerlink" title="总结教训（SDK方面）"></a>总结教训（SDK方面）</h3></li>
-<li><p>对于整体时间预留不够</p>
-</li>
-<li><p>经验有限，导致版本对齐，没有深刻领会到</p>
-<h3 id="SDK-一些技术"><a href="#SDK-一些技术" class="headerlink" title="SDK 一些技术"></a>SDK 一些技术</h3></li>
-</ol>
-]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>教训</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于gitrebase使用心得</title>
     <url>/2021/11/10/%E5%85%B3%E4%BA%8Egitrebase%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</url>
     <content><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由于公司以master分支为基线，因而每次从master切出，如果想要合入master时，就得rebase master分支。<br>但是每次合入rebase都会有很多冲突</p>
@@ -93,35 +71,26 @@
       </tags>
   </entry>
   <entry>
-    <title>关于项目合作（接口层面设计）</title>
-    <url>/2021/11/24/%E5%85%B3%E4%BA%8E%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%EF%BC%88%E6%8E%A5%E5%8F%A3%E5%B1%82%E9%9D%A2%E8%AE%BE%E8%AE%A1%EF%BC%89/</url>
-    <content><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>关于跨团队合作方案，流程模型考虑方面点</p>
-<ol>
-<li>首先从需求价值出发（一般技术涉及不到）</li>
-<li>从需求衍生出来的交互逻辑</li>
-<li>技术现状和交互进行调整，总体逻辑不变<ol>
-<li>最低成本解决问题，用已有能力进行解决</li>
-</ol>
+    <title>工作心得-2021-1014</title>
+    <url>/2021/10/14/dailywork-20211014/</url>
+    <content><![CDATA[<h3 id="方案开始建议"><a href="#方案开始建议" class="headerlink" title="方案开始建议"></a>方案开始建议</h3><p><img src="/2021/10/14/dailywork-20211014/1.jpg"></p>
+<h3 id="过程注意点"><a href="#过程注意点" class="headerlink" title="过程注意点"></a>过程注意点</h3><ol>
+<li><p>方案点列举需要，详尽点，包含时间点以及风险点。</p>
 </li>
-<li>技术方案制定<ol>
-<li>事先了解现状</li>
-<li>集中排查难点</li>
-</ol>
+<li><p>过程遇到难点，需要详尽讨论，包含方案调整带来的时间增加，需要和目标对齐好。</p>
+<h3 id="总结教训（SDK方面）"><a href="#总结教训（SDK方面）" class="headerlink" title="总结教训（SDK方面）"></a>总结教训（SDK方面）</h3></li>
+<li><p>对于整体时间预留不够</p>
 </li>
-</ol>
-<h3 id="接口方案原则"><a href="#接口方案原则" class="headerlink" title="接口方案原则"></a>接口方案原则</h3><ol>
-<li>最少接口原则</li>
-<li>简化双方流程交互顺序</li>
-</ol>
-<h3 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h3><ol>
-<li>按照交互顺序，设计接口调用顺序</li>
-<li>联调，进行接口调整</li>
+<li><p>经验有限，导致版本对齐，没有深刻领会到</p>
+<h3 id="SDK-一些技术"><a href="#SDK-一些技术" class="headerlink" title="SDK 一些技术"></a>SDK 一些技术</h3></li>
 </ol>
 ]]></content>
       <categories>
-        <category>项目心得</category>
-        <category>分类2</category>
+        <category>work</category>
       </categories>
+      <tags>
+        <tag>教训</tag>
+      </tags>
   </entry>
   <entry>
     <title>项目实施一些心得</title>
@@ -152,5 +121,36 @@
       <tags>
         <tag>项目感悟</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于项目合作（接口层面设计）</title>
+    <url>/2021/11/24/%E5%85%B3%E4%BA%8E%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C%EF%BC%88%E6%8E%A5%E5%8F%A3%E5%B1%82%E9%9D%A2%E8%AE%BE%E8%AE%A1%EF%BC%89/</url>
+    <content><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>关于跨团队合作方案，流程模型考虑方面点</p>
+<ol>
+<li>首先从需求价值出发（一般技术涉及不到）</li>
+<li>从需求衍生出来的交互逻辑</li>
+<li>技术现状和交互进行调整，总体逻辑不变<ol>
+<li>最低成本解决问题，用已有能力进行解决</li>
+</ol>
+</li>
+<li>技术方案制定<ol>
+<li>事先了解现状</li>
+<li>集中排查难点</li>
+</ol>
+</li>
+</ol>
+<h3 id="接口方案原则"><a href="#接口方案原则" class="headerlink" title="接口方案原则"></a>接口方案原则</h3><ol>
+<li>最少接口原则</li>
+<li>简化双方流程交互顺序</li>
+</ol>
+<h3 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h3><ol>
+<li>按照交互顺序，设计接口调用顺序</li>
+<li>联调，进行接口调整</li>
+</ol>
+]]></content>
+      <categories>
+        <category>项目心得</category>
+        <category>分类2</category>
+      </categories>
   </entry>
 </search>
